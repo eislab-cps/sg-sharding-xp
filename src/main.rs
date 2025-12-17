@@ -61,8 +61,14 @@ fn main() {
     match opt.experiment {
         1 => start_experiment1(seed, opt.reps, opt.iter),
         2 => start_experiment2(seed, opt.reps, opt.iter, opt.nodes),
+        21 => start_experiment2(seed, opt.reps, opt.iter, Some(2000)),
+        22 => start_experiment2(seed, opt.reps, opt.iter, Some(4000)),
         3 => start_experiment3(seed, opt.reps, opt.iter, opt.nodes, opt.shard_size),
-        31 => start_experiment3_sup(seed, opt.reps, opt.iter, opt.nodes, opt.shard_size),
+        31 => start_experiment3(seed, opt.reps, opt.iter, Some(4000), Some(61)),
+        32 => start_experiment3(seed, opt.reps, opt.iter, Some(2000), Some(41)),
+        33 => start_experiment3(seed, opt.reps, opt.iter, Some(2000), Some(51)),
+        34 => start_experiment3(seed, opt.reps, opt.iter, Some(4000), Some(51)),
+        39 => start_experiment3_sup(seed, opt.reps, opt.iter, opt.nodes, opt.shard_size),
         _ => {
             panic!()
         }
@@ -103,7 +109,7 @@ fn run_experiment1(n_nodes: &Vec<usize>, byz_frac: usize, byz_tol: usize, reps: 
             seed,
         };
         let timer = Instant::now();
-        println!("experiment_1({}, {}, {}, {}, {})...", n_nodes, byz_frac, reps, iter, seed);
+        println!("experiment_1({}, {}, {}, {}, {}, {})...", n_nodes, byz_frac, byz_tol, reps, iter, seed);
         let r = experiment1(&params, step);
         let ms = timer.elapsed().as_millis();
         println!("N={}, F=1/{}, f=1/{}, m={}, r={}", n_nodes, byz_frac, byz_tol, n_accounts, r);
