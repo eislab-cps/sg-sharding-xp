@@ -1,0 +1,24 @@
+cargo-features = ["profile-rustflags"]
+
+[package]
+name = "sg-sharding-xp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+rand_pcg = "0.3.0"
+structopt = "0.3.26"
+
+[profile.dev]
+opt-level = 3
+debug = true
+rustflags = ["-C", "target-cpu=native"]
+#rustflags = ["-C", "target-feature=+popcnt,+sse,+sse2,+ssse3,+sse4.1,+sse4.2"]
+
+[profile.release]
+opt-level = 3
+debug = true
+rustflags = ["-C", "target-cpu=native"]
