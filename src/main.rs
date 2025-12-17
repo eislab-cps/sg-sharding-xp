@@ -74,8 +74,8 @@ fn main() {
 
 fn start_experiment1(seed: u128, reps: Option<usize>, iter: Option<usize>) {
     let step = 10;
-    let reps = reps.unwrap_or(1_000);
-    let iter = iter.unwrap_or(5_000);
+    let reps = reps.unwrap_or(5_000);
+    let iter = iter.unwrap_or(1_000);
     let n_nodes = vec![125, 250, 500, 1_000, 2_000, 4_000];
     run_experiment1(&n_nodes, 5, 2, reps, iter, step, seed);
     run_experiment1(&n_nodes, 4, 2, reps, iter, step, seed);
@@ -115,8 +115,8 @@ fn run_experiment1(n_nodes: &Vec<usize>, byz_frac: usize, byz_tol: usize, reps: 
 
 fn start_experiment2(seed: u128, reps: Option<usize>, iter: Option<usize>, n_nodes: Option<usize>) {
     let n_nodes = n_nodes.unwrap_or(2_000);
-    let reps = reps.unwrap_or(1_000);
-    let iter = iter.unwrap_or(5_000);
+    let reps = reps.unwrap_or(5_000);
+    let iter = iter.unwrap_or(1_000);
     let shard_sizes = vec![11, 21, 31, 41, 51, 61, 71, 81, 91, 101];
     run_experiment2(shard_sizes, n_nodes, 4, 2, reps, iter, seed);
 }
@@ -150,8 +150,8 @@ fn run_experiment2(shard_sizes: Vec<usize>, n_nodes: usize, byz_frac: usize, byz
 fn start_experiment3(seed: u128, reps: Option<usize>, iter: Option<usize>, n_nodes: Option<usize>, shard_size: Option<usize>) {
     let n_nodes = n_nodes.unwrap_or(4_000);
     let shard_size = shard_size.unwrap_or(61);
-    let reps = reps.unwrap_or(1_000);
-    let iter = iter.unwrap_or(5_000);
+    let reps = reps.unwrap_or(5_000);
+    let iter = iter.unwrap_or(1_000);
     run_experiment3(n_nodes, shard_size, reps, iter, seed);
 }
 
