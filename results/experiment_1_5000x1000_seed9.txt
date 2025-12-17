@@ -1,0 +1,676 @@
+experiment_1(125, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+N=125, F=1/5, f=1/2, m=250, r=51
+Took 25.054 sec
+experiment_1(250, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+N=250, F=1/5, f=1/2, m=500, r=61
+Took 43.801 sec
+experiment_1(500, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+N=500, F=1/5, f=1/2, m=1000, r=61
+Took 98.035 sec
+experiment_1(1000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+N=1000, F=1/5, f=1/2, m=2000, r=81
+Took 318.43 sec
+experiment_1(2000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+N=2000, F=1/5, f=1/2, m=4000, r=81
+Took 1020.309 sec
+experiment_1(125, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+N=125, F=1/4, f=1/2, m=250, r=61
+Took 19.122 sec
+experiment_1(250, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+N=250, F=1/4, f=1/2, m=500, r=81
+Took 54.807 sec
+experiment_1(500, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+N=500, F=1/4, f=1/2, m=1000, r=101
+Took 162.236 sec
+experiment_1(1000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+N=1000, F=1/4, f=1/2, m=2000, r=111
+Took 422.012 sec
+experiment_1(2000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+N=2000, F=1/4, f=1/2, m=4000, r=121
+Took 2066.336 sec
+experiment_1(125, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+N=125, F=1/3, f=1/2, m=250, r=81
+Took 16.973 sec
+experiment_1(250, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+N=250, F=1/3, f=1/2, m=500, r=131
+Took 78.473 sec
+experiment_1(500, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+N=500, F=1/3, f=1/2, m=1000, r=171
+Took 194.839 sec
+experiment_1(1000, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+N=1000, F=1/3, f=1/2, m=2000, r=221
+Took 618.303 sec
+experiment_1(2000, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+N=2000, F=1/3, f=1/2, m=4000, r=261
+Took 4639.02 sec
+experiment_1(125, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+N=125, F=1/5, f=1/3, m=250, r=81
+Took 16.259 sec
+experiment_1(250, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+N=250, F=1/5, f=1/3, m=500, r=141
+Took 99.811 sec
+experiment_1(500, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+N=500, F=1/5, f=1/3, m=1000, r=201
+Took 328.011 sec
+experiment_1(1000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+N=1000, F=1/5, f=1/3, m=2000, r=241
+Took 834.594 sec
+experiment_1(2000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+N=2000, F=1/5, f=1/3, m=4000, r=301
+Took 2409.527 sec
+experiment_1(125, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+N=125, F=1/4, f=1/3, m=250, r=101
+Took 16.424 sec
+experiment_1(250, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+N=250, F=1/4, f=1/3, m=500, r=191
+Took 70.548 sec
+experiment_1(500, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+FAIL r = 311
+FAIL r = 321
+N=500, F=1/4, f=1/3, m=1000, r=331
+Took 441.125 sec
+experiment_1(1000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+FAIL r = 311
+FAIL r = 321
+FAIL r = 331
+FAIL r = 341
+FAIL r = 351
+FAIL r = 361
+FAIL r = 371
+FAIL r = 381
+FAIL r = 391
+FAIL r = 401
+FAIL r = 411
+FAIL r = 421
+FAIL r = 431
+FAIL r = 441
+FAIL r = 451
+FAIL r = 461
+N=1000, F=1/4, f=1/3, m=2000, r=471
+Took 2706.479 sec
+experiment_1(2000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+FAIL r = 311
+FAIL r = 321
+FAIL r = 331
+FAIL r = 341
+FAIL r = 351
+FAIL r = 361
+FAIL r = 371
+FAIL r = 381
+FAIL r = 391
+FAIL r = 401
+FAIL r = 411
+FAIL r = 421
+FAIL r = 431
+FAIL r = 441
+FAIL r = 451
+FAIL r = 461
+FAIL r = 471
+FAIL r = 481
+FAIL r = 491
+FAIL r = 501
+FAIL r = 511
+FAIL r = 521
+FAIL r = 531
+FAIL r = 541
+FAIL r = 551
+FAIL r = 561
+FAIL r = 571
+FAIL r = 581
+FAIL r = 591
+FAIL r = 601
+FAIL r = 611
+FAIL r = 621
+FAIL r = 631
+FAIL r = 641
+FAIL r = 651
+FAIL r = 661
+FAIL r = 671
+FAIL r = 681
+N=2000, F=1/4, f=1/3, m=4000, r=691
+Took 18797.652 sec
+experiment_1(4000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+N=4000, F=1/5, f=1/2, m=8000, r=91
+Took 3558.503 sec
+experiment_1(8000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+N=8000, F=1/5, f=1/2, m=16000, r=91
+Took 10364.955 sec
+experiment_1(16000, 5, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+N=16000, F=1/5, f=1/2, m=32000, r=91
+Took 31117.712 sec
+experiment_1(4000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+N=4000, F=1/4, f=1/2, m=8000, r=131
+Took 3536.714 sec
+experiment_1(8000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+N=8000, F=1/4, f=1/2, m=16000, r=141
+Took 17046.235 sec
+experiment_1(16000, 4, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+N=16000, F=1/4, f=1/2, m=32000, r=161
+Took 114859.967 sec
+experiment_1(4000, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+N=4000, F=1/3, f=1/2, m=8000, r=311
+Took 9876.511 sec
+experiment_1(8000, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+FAIL r = 311
+FAIL r = 321
+FAIL r = 331
+N=8000, F=1/3, f=1/2, m=16000, r=341
+Took 80542.774 sec
+experiment_1(16000, 3, 5000, 1000, 9012345678)...
+FAIL r = 11
+FAIL r = 21
+FAIL r = 31
+FAIL r = 41
+FAIL r = 51
+FAIL r = 61
+FAIL r = 71
+FAIL r = 81
+FAIL r = 91
+FAIL r = 101
+FAIL r = 111
+FAIL r = 121
+FAIL r = 131
+FAIL r = 141
+FAIL r = 151
+FAIL r = 161
+FAIL r = 171
+FAIL r = 181
+FAIL r = 191
+FAIL r = 201
+FAIL r = 211
+FAIL r = 221
+FAIL r = 231
+FAIL r = 241
+FAIL r = 251
+FAIL r = 261
+FAIL r = 271
+FAIL r = 281
+FAIL r = 291
+FAIL r = 301
+FAIL r = 311
+FAIL r = 321
+N=16000, F=1/3, f=1/2, m=32000, r=331
+Took 103244.624 sec
