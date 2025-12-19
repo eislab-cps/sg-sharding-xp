@@ -39,3 +39,8 @@ The same principle is applied to lower-level building blocks, such as the
 implementation of the `U256` (i.e. 256-bit unsigned) type.
 In addition, sanity checks are made to check cases with known results (such
 as scenarios where finding compromised shards is impossible/inevitable).
+
+
+## TODO
+
+- Add the code for analyzing the data and generating the graphs.
